@@ -32,7 +32,7 @@ Process date time object and extract new features such as from it - scheduling d
 
 How many appointments were taken by the patient before current scheduling day?
 
-#####3) Missed appointments
+##### 3) Missed appointments
 
 How many appointments are missed by the individual patient before current scheduling day. This tells the pattern of the individual patient that they are likely to miss future appointments too.
 
@@ -40,7 +40,7 @@ How many appointments are missed by the individual patient before current schedu
 
  Certain neighborhoods can be a demographic barrier to miss an appointment. Categorize neighborhoods into groups based on the number of appointments in that area.
 
-#####5) previous disease
+##### 5) previous disease
 
  Usually having any kind of ailments can cause anxiety or fear that can result in a patient no-show.
 
