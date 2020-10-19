@@ -1,12 +1,12 @@
 # Medical Appointments No-Shows
 
-##Overview
+## Overview
 
 The goal of this project is to investigate a dataset of appointment records for Brazil public hospitals. The data includes some attributes of patients and using those variables I tried to predict No-Show. The analysis is focused on finding trends influencing patients to show or not show up at the time of appointment.
 
-##Exploratory Data Analysis
+## Exploratory Data Analysis
 
-####Questions needed to be answered to find any patterns
+#### Questions needed to be answered to find any patterns
 
 - Who skipped most of the appointments male or female?
 
@@ -24,11 +24,11 @@ The goal of this project is to investigate a dataset of appointment records for 
 
 ## Feature Engineering
 
-#####1) Weekday Appointment
+##### 1) Weekday Appointment
 
 Process date time object and extract new features such as from it - scheduling day or appointment day of the week. Weekday appointments might not be convenient for the patients but it appears to be their only option that might lead to no-show.
 
-#####2) previous appointments
+##### 2) previous appointments
 
 How many appointments were taken by the patient before current scheduling day?
 
@@ -56,7 +56,7 @@ In the EDA I found 25% of the patients missed the appointments and this finding 
 
 - Since our data is imbalanced, a better evaluation metric would be F1-score which is around 86%. It implies that the more the F1 score the less chances of predicting false positives and false negatives.
 
-##Model usage
+## Model usage
 
 This model would help to find who the patients are likely to skip doctor’s appointments and we can always double book the appointment or send reminders. In that way the financial burden on the health care system can be answered. This model saves time as well as money to the care physicians and healthcare system overall.
 
